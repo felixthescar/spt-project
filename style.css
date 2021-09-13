@@ -1,0 +1,50 @@
+:root {
+    --gradCol1: #2b5417;
+    --gradCol2: #0f350b;
+}
+.h1 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.frame {
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 1.5rem;
+}
+
+.body {
+    background-image: linear-gradient(to bottom right, var(--gradCol1), var(--gradCol2));
+}
+
+.box {
+    opacity: 0%;
+}
+
+.button {
+
+    text-align: center;
+    background: var(--gradCol2);
+    color: white;
+    font-size: 20px;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    border: 0px;
+    opacity: 60%;
+
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.button:hover {
+    opacity: 1;
+  }
